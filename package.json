@@ -1,0 +1,38 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "description": "Webpage",
+  "author": "erikh22l18",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.15.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^5.1.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "morgan": "^1.7.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0",
+    "timeago.js": "^4.0.2"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "main": "app.js",
+  "license": "ISC"
+}
